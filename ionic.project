@@ -1,0 +1,12 @@
+{
+  "name": "ecsApp",
+  "app_id": "3137f399",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
