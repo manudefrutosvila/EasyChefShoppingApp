@@ -35,13 +35,13 @@
             }
         };
         
-        function remove(chat) {
-            items.splice(items.indexOf(chat), 1);
+        function remove(item) {
+            items.splice(items.indexOf(item), 1);
         };
         
-        function get(chatId) {
+        function get(itemId) {
             for (var i = 0; i < items.length; i++) {
-                if (items[i].id === parseInt(chatId)) {
+                if (items[i].id === parseInt(itemId)) {
                     return items[i];
                 }
             }

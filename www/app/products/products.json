@@ -2,71 +2,71 @@
 	{
 		"id": 0,
 		"name": "Aperitivos",
-		"face": "https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png"
+		"img": "http://cdn.flaticon.com/png/256/66346.png"
 	},
 	{
 		"id": 1,
 		"name": "Bebidas",
-		"face": "https://avatars3.githubusercontent.com/u/11214?v=3&s=460"
+		"img": "http://cdn.flaticon.com/png/256/11148.png"
 	},
 	{
 		"id": 2,
 		"name": "Carnicería",
-		"face": "https://pbs.twimg.com/profile_images/479090794058379264/84TKj_qa.jpeg"
+		"img": "http://icon-icons.com/icons2/390/PNG/256/meat_38212.png"
 	},
 	{
 		"id": 3,
 		"name": "Charcutería y Quesos",
-		"face": "https://pbs.twimg.com/profile_images/598205061232103424/3j5HUXMY.png"
+		"img": "http://cdn.flaticon.com/png/256/66507.png"
 	},
 	{
 		"id": 4,
 		"name": "Congelados y Helados",
-		"face": "https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png"
+		"img": "http://cdn.flaticon.com/png/256/63341.png"
 	},
 	{
 		"id": 5,
 		"name": "Conservas, aceites y condimentos",
-		"face": "https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png"
+		"img": "http://cdn.flaticon.com/png/256/34570.png"
 	},
 	{
 		"id": 6,
 		"name": "Droguería y limpieza",
-		"face": "https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png"
+		"img": "http://cdn.flaticon.com/png/256/80038.png"
 	},
 	{
 		"id": 7,
 		"name": "Frutas, verduras y hortalizas",
-		"face": "https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png"
+		"img": "http://cdn.flaticon.com/png/256/67391.png"
 	},
 	{
 		"id": 8,
 		"name": "Hogar",
-		"face": "https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png"
+		"img": "http://cdn.flaticon.com/png/256/70950.png"
 	},
 	{
 		"id": 9,
 		"name": "Horno y bollería",
-		"face": "https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png"
+		"img": "http://cdn.flaticon.com/png/256/17226.png"
 	},
 	{
 		"id": 10,
 		"name": "Lácteos y Huevos",
-		"face": "https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png"
+		"img": "http://cdn.flaticon.com/png/256/34649.png"
 	},
 	{
 		"id": 11,
 		"name": "Pastas y legumbres",
-		"face": "https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png"
+		"img": "http://cdn.flaticon.com/png/256/66304.png"
 	},
 	{
 		"id": 12,
 		"name": "Perfumería e Higiene",
-		"face": "https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png"
+		"img": "http://cdn.flaticon.com/png/256/80521.png"
 	},
 	{
 		"id": 13,
 		"name": "Pescadería",
-		"face": "https://pbs.twimg.com/profile_images/578237281384841216/R3ae1n61.png"
+		"img": "http://cdn.flaticon.com/png/256/1833.png"
 	}
 ]
