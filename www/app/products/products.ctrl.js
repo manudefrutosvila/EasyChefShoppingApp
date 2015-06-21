@@ -14,15 +14,12 @@
         //$scope.$on('$ionicView.enter', function(e) {
         //});
   
-        //$scope.products = products.all();
-        products.getResource().then(function(response){
-            products.init(response.data);
-            $scope.products = products.all(); 
-            // For JSON responses, resp.data contains the result   
-        }, function(error) {
-            console.log('error', error);
-            // error.status will contain the status code
-        });   
+        $scope.products = [];
+        
+        products.all()
+            .then(function(data) {
+                $scope.products = data;
+            });
         
         $scope.remove = function(product) {
             products.remove(product);

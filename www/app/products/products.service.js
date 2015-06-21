@@ -7,11 +7,10 @@
 
 
     function products($http) {
-        var products = [];
+        var items = [];
         
         var service = {
-            getResource : getResource,
-            init : init,
+            items : items,
             all : all,
             remove : remove,
             get : get
@@ -19,35 +18,31 @@
         
         return service;
         
-        function getResource() {
-            return $http.get('app/products/products.json');;
-        }
-        
-        function init(data) {
-            products = data;
-        }
-        
         function all() {
-            /*$http.get('app/products/products.json').then(function(response){
-                products = response.data; 
-                return products;
-                // For JSON responses, resp.data contains the result   
-            }, function(error) {
-                console.log('error', error);
-                // error.status will contain the status code
-            });
-            */
-            return products;
+            return $http.get('app/products/products.json')
+                .then(allComplete)
+                .catch(allFailed);
+                
+            function allComplete(response){ 
+                items = response.data;
+                console.log('products.all', items);
+                return items;
+            }
+            
+            function allFailed(error) {
+                var errorMsg = 'error ' + error.status;
+                console.log(errorMsg, error.data);
+            }
         };
         
         function remove(chat) {
-            products.splice(products.indexOf(chat), 1);
+            items.splice(items.indexOf(chat), 1);
         };
         
         function get(chatId) {
-            for (var i = 0; i < products.length; i++) {
-                if (products[i].id === parseInt(chatId)) {
-                    return products[i];
+            for (var i = 0; i < items.length; i++) {
+                if (items[i].id === parseInt(chatId)) {
+                    return items[i];
                 }
             }
             return null;
