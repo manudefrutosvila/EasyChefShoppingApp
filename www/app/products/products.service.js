@@ -6,7 +6,7 @@
         .factory('products', products);
 
 
-    function products($http) {
+    function products($http, $log) {
         var items = [];
         
         var service = {
@@ -25,13 +25,13 @@
                 
             function allComplete(response){ 
                 items = response.data;
-                console.log('products.all', items);
+                $log.info('products.all', items);
                 return items;
             }
             
             function allFailed(error) {
                 var errorMsg = 'error ' + error.status;
-                console.log(errorMsg, error.data);
+                $log.error(errorMsg, error.data);
             }
         };
         
