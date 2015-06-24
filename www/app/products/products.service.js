@@ -19,7 +19,7 @@
         return service;
         
         function all() {
-            return $http.get('app/products/products.json')
+            return $http.get('app/products/categories.json')
                 .then(allComplete)
                 .catch(allFailed);
                 

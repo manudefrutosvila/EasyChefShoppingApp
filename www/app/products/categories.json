@@ -1,0 +1,190 @@
+[
+	{
+		"id": 0,
+		"name": "Aperitivos",
+		"img": "http://cdn.flaticon.com/png/256/66346.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Doritos",
+				"description": ""
+			},
+			{
+				"id": 1,
+				"name": "Olivas",
+				"description": ""
+			},
+			{
+				"id": 2,
+				"name": "Papas",
+				"description": "Tradicional"
+			},
+			{
+				"id": 3,
+				"name": "Papas",
+				"description": "Sabor jamón"
+			},
+			{
+				"id": 4,
+				"name": "Saladitos",
+				"description": ""
+			}
+		]
+	},
+	{
+		"id": 1,
+		"name": "Bebidas",
+		"img": "http://cdn.flaticon.com/png/256/11148.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Agua",
+				"description": "2 litros"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Carnicería",
+		"img": "http://icon-icons.com/icons2/390/PNG/256/meat_38212.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Alitas de pollo",
+				"description": ""
+			}
+		]
+	},
+	{
+		"id": 3,
+		"name": "Charcutería y Quesos",
+		"img": "http://cdn.flaticon.com/png/256/66507.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Bacon",
+				"description": ""
+			}
+		]
+	},
+	{
+		"id": 4,
+		"name": "Congelados y Helados",
+		"img": "http://cdn.flaticon.com/png/256/63341.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Bases de pizza",
+				"description": ""
+			}
+		]
+	},
+	{
+		"id": 5,
+		"name": "Conservas, aceites y condimentos",
+		"img": "http://cdn.flaticon.com/png/256/34570.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Aceite",
+				"description": ""
+			}
+		]
+	},
+	{
+		"id": 6,
+		"name": "Droguería y limpieza",
+		"img": "http://cdn.flaticon.com/png/256/80038.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Ambientador",
+				"description": ""
+			}
+		]
+	},
+	{
+		"id": 7,
+		"name": "Frutas, verduras y hortalizas",
+		"img": "http://cdn.flaticon.com/png/256/67391.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Champiñones",
+				"description": ""
+			}
+		]
+	},
+	{
+		"id": 8,
+		"name": "Hogar",
+		"img": "http://cdn.flaticon.com/png/256/70950.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Bolsas basura",
+				"description": "40 litros"
+			}
+		]
+	},
+	{
+		"id": 9,
+		"name": "Horno y bollería",
+		"img": "http://cdn.flaticon.com/png/256/17226.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Chocolate",
+				"description": ""
+			}
+		]
+	},
+	{
+		"id": 10,
+		"name": "Lácteos y Huevos",
+		"img": "http://cdn.flaticon.com/png/256/34649.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Huevos",
+				"description": ""
+			}
+		]
+	},
+	{
+		"id": 11,
+		"name": "Pastas y legumbres",
+		"img": "http://cdn.flaticon.com/png/256/66304.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Arroz",
+				"description": ""
+			}
+		]
+	},
+	{
+		"id": 12,
+		"name": "Perfumería e Higiene",
+		"img": "http://cdn.flaticon.com/png/256/80521.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Champú",
+				"description": ""
+			}
+		]
+	},
+	{
+		"id": 13,
+		"name": "Pescadería",
+		"img": "http://cdn.flaticon.com/png/256/1833.png",
+		"products" : [
+			{
+				"id": 0,
+				"name": "Bacalao",
+				"description": ""
+			}
+		]
+	}
+]

@@ -9632,6 +9632,22 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
+/* ion-list directive from http://codepen.io/ionic/pen/uJkCz */
+/* line 3, /Users/manu/dev/tests/EasyChefShopping/scss/vendor/_ion-list.scss */
+.list .item.item-accordion {
+  line-height: 38px;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: 0.09s all linear; }
+
+/* line 9, /Users/manu/dev/tests/EasyChefShopping/scss/vendor/_ion-list.scss */
+.list .item.item-accordion.ng-hide {
+  line-height: 0px; }
+
+/* line 13, /Users/manu/dev/tests/EasyChefShopping/scss/vendor/_ion-list.scss */
+.list .item.item-accordion.ng-hide-add, .list .item.item-accordion.ng-hide-remove {
+  display: block !important; }
+
 /* ===========================
    Modules/All
    =========================== */

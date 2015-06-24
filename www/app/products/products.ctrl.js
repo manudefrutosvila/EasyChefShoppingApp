@@ -14,13 +14,24 @@
         //$scope.$on('$ionicView.enter', function(e) {
         //});
   
-        $scope.products = [];
+        $scope.categories = [];
         
         products.all()
             .then(function(data) {
-                $scope.products = data;
+                $scope.categories = data;
             });
         
+        $scope.toggleCategory = function(category) {
+            if ($scope.isCategoryShown(category)) {
+                $scope.shownCategory = null;
+            } else {
+                $scope.shownCategory = category;
+            }
+        };
+        $scope.isCategoryShown = function (category) {
+            return $scope.shownCategory === category;
+        };
+  
         $scope.remove = function(product) {
             products.remove(product);
         };
