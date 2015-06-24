@@ -10,7 +10,7 @@ The purpose of this project is to make an improvement to the look and feel of th
 The following libraries are used in this project:
 
 *   [AngularJS](http://angularjs.org)
-*   [Ionic](http://ionicframework.com)
+*   [Ionic framework](http://ionicframework.com)
 *   [Gulp](http://gulpjs.com)
 *   [Sass](http://sass-lang.com)
 *   [Jasmine](http://jasmine.github.io)
@@ -25,3 +25,19 @@ To start the project, firstly they are needed the following requirements:
 *   [Sass](http://sass-lang.com) ( ruby gem )
 
 
+## Install
+
+1. Install [node.js](http://nodejs.org/), [Ruby](https://www.ruby-lang.org) and [Sass](http://sass-lang.com)
+2. `cd <project>`
+3. `npm -g install bower gulp`
+4. `ionic setup sass`
+
+
+## Run dev server
+
+To start a developer server, you should use [Ionic CLI](http://ionicframework.com/docs/cli/)
+
+    cd <project>
+    ionic serve
+
+It will be opened a browser with the address `http://localhost:8000`. Ionic will start the server with live reload and the [Gulp](http://gulpjs.com) tasks for watch changes and compile Sass files if needed.
