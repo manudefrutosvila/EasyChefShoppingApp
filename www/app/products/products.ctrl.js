@@ -24,5 +24,9 @@
         $scope.remove = function(product) {
             products.remove(product);
         };
+        
+        $scope.onHold = function(product) {
+            console.log('onHold', product.name);
+        };
     }
 })();
