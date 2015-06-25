@@ -3,6 +3,7 @@
 @import "base/all";
 // @import "forms/all";
 @import "layout/all";
+@import "components/all";
 
 //helpers is the last import due to being important than the others to have a modifier behaviour
 @import "helpers";
