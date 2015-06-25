@@ -6,3 +6,4 @@ platforms/
 plugins/
 .settings/
 .DS_Store
+www/css/*.css
