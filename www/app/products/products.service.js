@@ -24,9 +24,9 @@
                 .catch(allFailed);
                 
             function allComplete(response){ 
-                items = response.data;
-                $log.info('products.all', items);
-                return items;
+                service.items = response.data;
+                $log.info('products.all', service.items);
+                return service.items;
             }
             
             function allFailed(error) {

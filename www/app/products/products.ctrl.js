@@ -5,7 +5,7 @@
         .module('ecs.products')
         .controller('ProductsCtrl', ProductsCtrl);
         
-    function ProductsCtrl($scope, $http, products) {
+    function ProductsCtrl($scope, $http, $log, products) {
         // With the new view caching in Ionic, Controllers are only called
         // when they are recreated or on app start, instead of every page change.
         // To listen for when this page is active (for example, to refresh data),
@@ -28,16 +28,17 @@
                 $scope.shownCategory = category;
             }
         };
+        
         $scope.isCategoryShown = function (category) {
             return $scope.shownCategory === category;
         };
-  
-        $scope.remove = function(product) {
-            products.remove(product);
-        };
         
-        $scope.onHold = function(product) {
-            console.log('onHold', product.name);
+        $scope.onHold = function(category, product) {
+            if (product){
+                $log.info('onHold', category.name, product.name);
+                return;    
+            }
+            $log.info('onHold', category.name);
         };
     }
 })();
