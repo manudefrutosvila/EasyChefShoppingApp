@@ -5,7 +5,7 @@
         .module('ecs.products')
         .controller('CartCtrl', CartCtrl);
         
-    function CartCtrl($scope, $log, cart) {
+    function CartCtrl($scope, $log, $ionicTabsDelegate, cart, tabsService) {
         
         $scope.$on('$ionicView.enter', function(e) {
             $log.info('cart view enter');
@@ -39,6 +39,14 @@
             } else {
                 $scope.shownCategory = category;
             }
+        };
+        
+        $scope.onSwipeRight = function(){
+            $ionicTabsDelegate.select(tabsService.getProductsTab());
+        };
+        
+        $scope.onSwipeLeft = function(){
+            $ionicTabsDelegate.select(tabsService.getRecipesTab());
         };
         
     }
