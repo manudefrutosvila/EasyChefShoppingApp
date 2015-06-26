@@ -3,7 +3,7 @@ Easy Chef Shopping revamped
 
 ## What is in here? ##
 
-The purpose of this project is to make an improvement to the look and feel of the Android App *Easy Chef Shopping*. To accomplish this, and in order to learn a new methodology, we will use [Ionic](http://ionicframework.com), the Advanced HTML5 Hybrid Mobile App Framework, a front-end SDK for developing hybrid mobile apps with HTML5.
+The purpose of this project is to make an improvement to the look and feel of the Android App *Easy Chef Shopping*. To accomplish this, and in order to learn a new methodology, we will use [Ionic](http://ionicframework.com), the Advanced HTML5 Hybrid Mobile App Framework, a front-end SDK for developing hybrid mobile apps with HTML5. Also we will follow the guidelines on [AngularJS Modular structure Demo](https://github.com/johnpapa/ng-demos/tree/master/modular) and [AngularJS Style Guide](https://github.com/johnpapa/angular-styleguide) by [John Papa](http://www.johnpapa.net)
 
 ## Main libraries
 
