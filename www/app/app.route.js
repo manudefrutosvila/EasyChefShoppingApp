@@ -12,7 +12,7 @@ angular.module('ecs')
     .state('tab', {
         url: "/tab",
         abstract: true,
-        templateUrl: "templates/tabs.html"
+        templateUrl: "app/layout/tabs.html"
     });
 
   // if none of the above states are matched, use this as the fallback

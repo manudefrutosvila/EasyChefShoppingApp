@@ -11,7 +11,7 @@
                 url: '/recipes',
                 views: {
                     'tab-recipes': {
-                    templateUrl: 'templates/tab-recipes.html',
+                    templateUrl: 'app/recipes/tab-recipes.html',
                     controller: 'RecipesCtrl'
                     }
                 }

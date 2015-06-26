@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('ecs.core')
+        .module('ecs.layout')
         .factory('tabsService', tabs);
 
 

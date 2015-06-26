@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('ecs', ['ionic', 'ecs.core', 'ecs.products', 'ecs.cart', 'ecs.recipes'])
+angular.module('ecs', ['ionic', 'ecs.core', 'ecs.layout', 'ecs.products', 'ecs.cart', 'ecs.recipes'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

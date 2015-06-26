@@ -11,7 +11,7 @@
                 url: '/products',
                 views: {
                   'tab-products': {
-                    templateUrl: 'templates/tab-products.html',
+                    templateUrl: 'app/products/tab-products.html',
                     controller: 'ProductsCtrl'
                   }
                 }
@@ -20,7 +20,7 @@
               url: '/products/:productId',
               views: {
                 'tab-products': {
-                  templateUrl: 'templates/product-detail.html',
+                  templateUrl: 'app/products/product-detail.html',
                   controller: 'ProductDetailCtrl'
                 }
               }

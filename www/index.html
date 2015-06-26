@@ -26,6 +26,7 @@
     <ion-nav-view></ion-nav-view>
     
     
+    <!-- inject:js -->
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.bundle.js"></script>
 
@@ -38,7 +39,10 @@
     
     <!-- Core module -->
     <script src="app/core/core.module.js"></script>
-    <script src="app/core/tabs.service.js"></script>
+    
+    <!-- Core module -->
+    <script src="app/layout/layout.module.js"></script>
+    <script src="app/layout/tabs.service.js"></script>
     
     <!-- Products module -->
     <script src="app/products/products.module.js"></script>
@@ -57,5 +61,6 @@
     <script src="app/recipes/recipes.module.js"></script>
     <script src="app/recipes/config.route.js"></script>
     <script src="app/recipes/recipes.ctrl.js"></script>
+    <!-- endinject -->
   </body>
 </html>

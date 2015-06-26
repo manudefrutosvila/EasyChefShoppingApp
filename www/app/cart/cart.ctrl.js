@@ -8,7 +8,6 @@
     function CartCtrl($scope, $log, $ionicTabsDelegate, cart, tabsService) {
         
         $scope.$on('$ionicView.enter', function(e) {
-            $log.info('cart view enter');
             cart.all().
                 then(function(data){
                     $scope.categories = data;
