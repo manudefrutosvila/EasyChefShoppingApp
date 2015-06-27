@@ -20,7 +20,7 @@
               url: '/products/:productId',
               views: {
                 'tab-products': {
-                  templateUrl: 'app/products/product-detail.html',
+                  templateUrl: 'app/products/detail/product-detail.html',
                   controller: 'ProductDetailCtrl'
                 }
               }
