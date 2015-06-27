@@ -2,7 +2,7 @@
     'use strict';
     
     angular
-        .module('ecs.products')
+        .module('ecs.cart')
         .controller('CartCtrl', CartCtrl);
         
     function CartCtrl($scope, $log, $ionicTabsDelegate, cart, tabsService) {
@@ -38,6 +38,10 @@
             } else {
                 $scope.shownCategory = category;
             }
+        };
+        
+        $scope.cartProductsUpdate = function(product){
+            $scope.$emit('cartProductDelete');
         };
         
         $scope.onSwipeRight = function(){
