@@ -6,6 +6,13 @@
         .controller('ProductDetailCtrl', ProductDetailCtrl);
         
     function ProductDetailCtrl($scope, $stateParams, products) {
-        $scope.product = products.get($stateParams.productId);
+        var product = products.get($stateParams.productId);
+        
+        $scope.title = product.name;
+        $scope.product = angular.copy(product);
+        
+        $scope.save = function(){
+              products.save(product, $scope.product);
+        };
     }
 })();

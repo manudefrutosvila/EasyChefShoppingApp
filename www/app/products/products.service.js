@@ -12,8 +12,9 @@
         var service = {
             items : items,
             all : all,
-            remove : remove,
-            get : get
+            get : get,
+            save : save,
+            remove : remove
         };
         
         return service;
@@ -35,8 +36,13 @@
             }
         };
         
+        function save(item, itemModified){
+            var itemPosition = service.items.indexOf(item); 
+            service.items[itemPosition] = itemModified;
+        };
+        
         function remove(item) {
-            service.items.splice(items.indexOf(item), 1);
+            service.items.splice(service.items.indexOf(item), 1);
         };
         
         function get(itemId) {
