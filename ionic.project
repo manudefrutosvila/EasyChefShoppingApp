@@ -1,5 +1,5 @@
 {
-  "name": "ecsApp",
+  "name": "Easy Chef Shopping",
   "app_id": "3137f399",
   "gulpStartupTasks": [
     "sass",
