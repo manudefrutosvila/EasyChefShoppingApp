@@ -1,0 +1,16 @@
+<ion-view view-title="{{title}}">
+    <ion-content class="padding">
+        <label class="item item-input">
+            <span class="input-label">Image</span>
+            <img ng-src="{{product.img}}" style="width: 64px; height: 64px">
+        </label>
+        
+        <label class="item item-input">
+            <span class="input-label">Name</span>
+            <input type="text" ng-model="product.name"/>
+        </label>
+        
+        <button class="button button-block button-positive" ng-click="save()">Guardar</button>
+        <button class="button button-block button-assertive">Cancelar</button>
+    </ion-content>
+</ion-view>

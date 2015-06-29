@@ -20,10 +20,28 @@
               url: '/products/:productId',
               views: {
                 'tab-products': {
-                  templateUrl: 'app/products/product-detail.html',
+                  templateUrl: 'app/products/detail/product-detail.html',
                   controller: 'ProductDetailCtrl'
                 }
               }
-            });   
+            });
+            // .state('tab.category-detail', {
+            //   url: '/products/edit/category/:productId',
+            //   views: {
+            //     'tab-products': {
+            //       templateUrl: 'app/products/detail/category-detail.html',
+            //       controller: 'ProductDetailCtrl'
+            //     }
+            //   }
+            // })
+            // .state('tab.product-detail', {
+            //   url: '/products/edit/product/:productId',
+            //   views: {
+            //     'tab-products': {
+            //       templateUrl: 'app/products/detail/product-detail.html',
+            //       controller: 'ProductDetailCtrl'
+            //     }
+            //   }
+            // });
     }
 })();

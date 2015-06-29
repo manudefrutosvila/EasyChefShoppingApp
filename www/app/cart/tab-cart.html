@@ -14,7 +14,8 @@
                 <ion-checkbox class="item-accordion item-checkbox-right"
                     ng-repeat="product in category.products"
                     ng-show="isProductShown(category, product)"
-                    ng-model="product.isInCart">
+                    ng-model="product.isInCart"
+                    ng-change="cartProductsUpdate(product)">
                         {{product.name}}
                 </ion-checkbox>
             </div>

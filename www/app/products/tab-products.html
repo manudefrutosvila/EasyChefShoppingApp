@@ -19,6 +19,7 @@
                     ng-repeat="product in category.products"
                     ng-show="isCategoryShown(category)"
                     ng-model="product.isInCart"
+                    ng-change="cartProductsUpdate(product)"
                     on-hold="onHold(category, product)">
                         {{product.name}}
                 </ion-checkbox>

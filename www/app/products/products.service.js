@@ -12,8 +12,9 @@
         var service = {
             items : items,
             all : all,
-            remove : remove,
-            get : get
+            get : get,
+            save : save,
+            remove : remove
         };
         
         return service;
@@ -35,17 +36,21 @@
             }
         };
         
+        function save(item, itemModified){
+            var itemPosition = service.items.indexOf(item); 
+            service.items[itemPosition] = itemModified;
+        };
+        
         function remove(item) {
-            items.splice(items.indexOf(item), 1);
+            service.items.splice(service.items.indexOf(item), 1);
         };
         
         function get(itemId) {
-            for (var i = 0; i < items.length; i++) {
-                if (items[i].id === parseInt(itemId)) {
-                    return items[i];
-                }
-            }
-            return null;
+            if (angular.isUndefined(service.items[itemId])) {
+                return null;
+            };
+            
+            return service.items[itemId];
         };
     };
 })();
