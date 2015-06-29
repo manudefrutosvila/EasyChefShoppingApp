@@ -11,7 +11,7 @@
                 url: '/products',
                 views: {
                   'tab-products': {
-                    templateUrl: 'app/products/tab-products.html',
+                    templateUrl: 'js/products/tab-products.html',
                     controller: 'ProductsCtrl'
                   }
                 }
@@ -20,7 +20,7 @@
               url: '/products/:productId',
               views: {
                 'tab-products': {
-                  templateUrl: 'app/products/detail/product-detail.html',
+                  templateUrl: 'js/products/detail/product-detail.html',
                   controller: 'ProductDetailCtrl'
                 }
               }
@@ -29,7 +29,7 @@
             //   url: '/products/edit/category/:productId',
             //   views: {
             //     'tab-products': {
-            //       templateUrl: 'app/products/detail/category-detail.html',
+            //       templateUrl: 'js/products/detail/category-detail.html',
             //       controller: 'ProductDetailCtrl'
             //     }
             //   }
@@ -38,7 +38,7 @@
             //   url: '/products/edit/product/:productId',
             //   views: {
             //     'tab-products': {
-            //       templateUrl: 'app/products/detail/product-detail.html',
+            //       templateUrl: 'js/products/detail/product-detail.html',
             //       controller: 'ProductDetailCtrl'
             //     }
             //   }

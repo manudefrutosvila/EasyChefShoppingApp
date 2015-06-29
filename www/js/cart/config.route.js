@@ -11,7 +11,7 @@
                 url: '/cart',
                 views: {
                     'tab-cart': {
-                      templateUrl: 'app/cart/tab-cart.html',
+                      templateUrl: 'js/cart/tab-cart.html',
                       controller: 'CartCtrl'
                     }
                 }
