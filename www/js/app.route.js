@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('ecs')
 
 .config(function($stateProvider, $urlRouterProvider) {
@@ -10,9 +12,9 @@ angular.module('ecs')
 
     // setup an abstract state for the tabs directive
     .state('tab', {
-        url: "/tab",
+        url: '/tab',
         abstract: true,
-        templateUrl: "js/layout/tabs.html"
+        templateUrl: 'js/layout/tabs.html'
     });
 
   // if none of the above states are matched, use this as the fallback
