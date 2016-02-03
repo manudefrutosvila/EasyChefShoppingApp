@@ -2,16 +2,11 @@
     <ion-content>
         <ion-list>
             <div ng-repeat="category in categories">
-                <!--<ion-item class="item-remove-animate item-avatar item-icon-right" 
-                    ng-repeat="product in products" 
-                    type="item-text-wrap"
-                    href="#/tab/products/{{product.id}}" 
-                    on-hold="onHold(product)">-->
                 <ion-item class="item-remove-animate item-avatar item-icon-right"
                     ng-click="toggleCategory(category)"
                     ng-class="{active: isCategoryShown(category)}"
                     on-hold="onHold(category)">
-                    
+
                     <img ng-src="{{category.img}}">
                     <h2>{{category.name}}</h2>
                 </ion-item>

@@ -1,57 +1,67 @@
 (function() {
     'use strict';
-    
+
     angular
         .module('ecs.products')
         .controller('ProductsCtrl', ProductsCtrl);
-        
-    function ProductsCtrl($scope, $http, $log, $ionicTabsDelegate, $state, products, cart, tabsService) {
-        // With the new view caching in Ionic, Controllers are only called
-        // when they are recreated or on app start, instead of every page change.
-        // To listen for when this page is active (for example, to refresh data),
-        // listen for the $ionicView.enter event:
-        //
-        //$scope.$on('$ionicView.enter', function(e) {
-        //});
-  
+
+    function ProductsCtrl($scope, $http, $log, $ionicTabsDelegate, $state, products, cart, tabs) {
+
         $scope.categories = [];
-        
-        products.all()
-            .then(function(data) {
-                $scope.categories = data;
+
+        $scope.toggleCategory = toggleCategory;
+        $scope.isCategoryShown = isCategoryShown;
+        $scope.cartProductsUpdate = cartProductsUpdate;
+        $scope.onHold = onHold;
+        $scope.onSwipeLeft = onSwipeLeft;
+
+        activate();
+
+
+        function activate(){
+            return getProducts().then(function(){
+                $log.info('Activated Products View');
             });
-        
-        $scope.toggleCategory = function(category) {
+        }
+
+        function getProducts(){
+            return products.all().then(function(data) {
+                $scope.categories = data;
+                return $scope.categories;
+            });
+        }
+
+        function toggleCategory(category) {
             if ($scope.isCategoryShown(category)) {
                 $scope.shownCategory = null;
             } else {
                 $scope.shownCategory = category;
             }
-        };
-        
-        $scope.isCategoryShown = function (category) {
+        }
+
+        function isCategoryShown(category) {
             return $scope.shownCategory === category;
-        };
-        
-        $scope.cartProductsUpdate = function(product){
+        }
+
+        function cartProductsUpdate(product){
             if (product.isInCart){
                 $scope.$emit('cartProductAdd');
                 return;
             }
             $scope.$emit('cartProductDelete');
-        };
-        
-        $scope.onHold = function(category, product) {
-            if (product){
-                $log.info('onHold', category.name, product.name);
-                return;    
-            }
-            $log.info('onHold', category.name);
-            $state.go('tab.product-detail',{productId: category.id});
-        };
-        
-        $scope.onSwipeLeft = function(){
-            $ionicTabsDelegate.select(tabsService.getCartTab());
-        };
+        }
+
+        function onHold(category, product) {
+            // if (product){
+            //     $log.info('onHold', category.name, product.name);
+            //     return;
+            // }
+            // $log.info('onHold', category.name);
+            // $state.go('tab.product-detail',{productId: category.id});
+        }
+
+        function onSwipeLeft(){
+            $ionicTabsDelegate.select(tabs.CART);
+        }
     }
 })();
