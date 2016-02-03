@@ -13,7 +13,6 @@
         $scope.isCategoryActive = isCategoryActive;
         $scope.isCategoryShown = isCategoryShown;
         $scope.isProductShown = isProductShown;
-        $scope.toggleCategory = toggleCategory;
         $scope.cartProductsUpdate = cartProductsUpdate;
         $scope.onSwipeRight = onSwipeRight;
         // $scope.onSwipeLeft = onSwipeLeft;
@@ -49,14 +48,6 @@
 
         function isProductShown(category, product) {
             return isCategoryShown(category) && product.isInCart;
-        }
-
-        function toggleCategory(category) {
-            if ($scope.isCategoryActive(category)) {
-                $scope.shownCategory = null;
-            } else {
-                $scope.shownCategory = category;
-            }
         }
 
         function cartProductsUpdate(product){

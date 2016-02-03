@@ -1,11 +1,8 @@
-<ion-view view-title="Compra" on-swipe-left="onSwipeLeft()" on-swipe-right="onSwipeRight()">
+<ion-view on-swipe-left="onSwipeLeft()" on-swipe-right="onSwipeRight()">
     <ion-content>
         <ion-list>
             <div ng-repeat="category in categories">
-                <ion-item class="item-remove-animate item-avatar item-icon-right"
-                    ng-click="toggleCategory(category)"
-                    ng-class="{active: isCategoryActive(category)}"
-                    on-hold="onHold(category)"
+                <ion-item class="item-remove-animate item-avatar item-icon-right active"
                     ng-show="isCategoryShown(category)">
 
                     <img ng-src="{{category.img}}">
