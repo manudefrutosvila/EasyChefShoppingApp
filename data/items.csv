@@ -1,0 +1,116 @@
+_id,name,desc,id_category,marked
+1,Coca cola,2L,1,0
+2,Pechugas pollo,Filetes,3,0
+3,Patatas fritas,Corte grueso,5,0
+4,Leche,,6,0
+5,Detergente color,,4,0
+6,Fanta limón,,1,0
+7,Zumo naranja,,1,0
+8,Zanahorias,Envase de 2 unidades,7,0
+9,Té limón,,1,0
+10,Fuet,,10,0
+11,Jamón york,,10,0
+12,Jamón serrano,,10,0
+13,Pimientos,Freir,7,0
+14,Suavizante,,4,0
+15,Detergente blanco,,4,0
+16,Fregasuelos,,4,0
+17,Lechuga,,7,0
+18,Cherrys,,7,0
+22,Cordero,,3,0
+23,Ternera,,3,0
+24,Longaniza de pavo,,10,0
+26,Maíz,,7,0
+27,Yogur natural,,6,0
+29,Batido fresa,,6,0
+30,Pan,,11,0
+31,Queso,,10,0
+32,Salchichas hot dog,,10,0
+33,Salmón ahumado,,10,0
+34,Bacon,,10,0
+35,Alitas pollo,,3,0
+36,Lomo cerdo,,3,0
+37,Doritos,,12,0
+38,Olivas,,12,0
+49,Papel higiénico,,4,0
+53,Agua,Cortés 2L,1,0
+57,Nata cocina,,6,0
+62,Panga,,14,0
+63,Panecillos tostados,,11,0
+64,Pan Hotdog,,11,0
+66,Queso mozzarella,,10,0
+68,Fregona,,2,0
+69,Pilas,,2,0
+72,Ketchup,,15,0
+73,Orégano,,15,0
+74,Bolsas basura,,2,0
+76,Limones,,7,0
+77,Pan de molde,,11,0
+78,Patatas fritas,,12,0
+79,Ajo,,15,0
+80,Comino,,15,0
+81,Arroz,,16,0
+82,Macarrones,,16,0
+83,Spaguettis,,16,0
+84,Garbanzos,,16,0
+89,Champiñones,,7,0
+90,Mantequilla,Light hacendado,6,0
+92,Carne picada,,3,0
+93,Conejo,,3,0
+96,Tomates,,7,0
+98,Guisantes,,7,0
+99,Trina Naranja,,1,0
+100,Tomate,Natural triturado,15,0
+101,Tomate,Frito triturado,15,0
+102,Hamburguesas,Ternera,3,0
+103,Papel film,,2,0
+104,Napolitanas,York y queso,11,0
+105,Pollo,,3,0
+107,Pan hamburguesa,,11,0
+108,Queso sandwich,Emmental,10,0
+109,Harina,Maicena,15,0
+110,Azúcar,,15,0
+111,Café,,15,0
+112,Sal,,15,0
+113,Tila,,15,0
+114,Manzanilla,,15,0
+115,Queso rallado,,10,0
+116,Verduras,,5,0
+117,Peras,,7,0
+118,Naranjas,,7,0
+119,Manzanas,,7,0
+120,Plátanos,,7,0
+121,Ambientador,,4,0
+122,Calabacín,,7,0
+123,Alcachofas,,7,0
+125,Saladitos,,12,0
+126,Hojaldre,,11,0
+128,Cebolla,,7,0
+129,Vino blanco,Cocina,1,0
+130,Chocolate,Fondant,11,0
+131,Pechuga de pavo,,10,0
+132,Nutella,,11,0
+133,Huevos,,6,0
+134,Atún,,15,0
+135,Aceite,,15,0
+136,Vinagre,,15,0
+137,Cuchillas afeitar,,17,0
+138,Dentífrico,,17,0
+139,Desodorante,,17,0
+140,Lentejas,,16,0
+141,Fajitas,,11,0
+143,Salsa tomate mexicana,Fajitas,15,0
+148,Bastoncillos,,17,0
+151,Laurel,,15,0
+160,Gel de baño,,17,0
+161,Champú,,17,0
+162,Bacalao,,14,0
+163,Merluza,,14,0
+164,Trucha,,14,0
+165,Papel cocina,,2,0
+166,Bases de pizza,,5,0
+167,Gambas,,14,0
+168,Mejillones,,14,0
+169,Cerveza,,1,0
+170,Patatas,,7,0
+171,Bolsa basura,,4,1
