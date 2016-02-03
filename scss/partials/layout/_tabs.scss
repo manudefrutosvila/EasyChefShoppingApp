@@ -2,3 +2,7 @@
     max-width: inherit;
     position: relative;
 }
+
+.tabs-striped .tab-item-active .badge{
+    opacity: 1 !important;
+}
