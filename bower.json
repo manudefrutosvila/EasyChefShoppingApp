@@ -1,7 +1,12 @@
 {
   "name": "EasyChefShopping",
+  "version": "0.0.1",
+  "description": "BBVA Millennials",
+  "authors": [
+    "Manu de Frutos Vila <manufvdev@gmail.com>"
+  ],
   "private": "true",
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.0.0"
+    "ionic": "driftyco/ionic-bower#1.2.4"
   }
 }

@@ -7,3 +7,4 @@ plugins/
 .settings/
 .DS_Store
 www/css/*.css
+www/vendor
