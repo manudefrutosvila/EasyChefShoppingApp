@@ -25,7 +25,10 @@
                 .catch(allFailed);
 
             function allComplete(response){
-                service.items = response.data;
+                service.items = response.data.map(function(item){
+                    item.img = 'img/' + item.img;
+                    return item;
+                });
                 $log.info('products.all', service.items);
                 return service.items;
             }

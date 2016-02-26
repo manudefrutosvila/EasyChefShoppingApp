@@ -2,7 +2,7 @@
 	{
 		"id": 0,
 		"name": "Aperitivos",
-		"img": "http://cdn.flaticon.com/png/256/66346.png",
+		"img": "66346.png",
 		"products": [
 			{
 				"id": 37,
@@ -34,7 +34,7 @@
 	{
 		"id": 1,
 		"name": "Bebidas",
-		"img": "http://cdn.flaticon.com/png/256/11148.png",
+		"img": "11148.png",
 		"products": [
 			{
 				"id": 53,
@@ -81,7 +81,7 @@
 	{
 		"id": 2,
 		"name": "Carnicería",
-		"img": "http://icon-icons.com/icons2/390/PNG/256/meat_38212.png",
+		"img": "meat_38212.png",
 		"products": [
 			{
 				"id": "35",
@@ -133,7 +133,7 @@
 	{
 		"id": 3,
 		"name": "Charcutería y Quesos",
-		"img": "http://cdn.flaticon.com/png/256/66507.png",
+		"img": "66507.png",
 		"products": [
 			{
 				"id": 34,
@@ -200,7 +200,7 @@
 	{
 		"id": 4,
 		"name": "Congelados y Helados",
-		"img": "http://cdn.flaticon.com/png/256/63341.png",
+		"img": "63341.png",
 		"products": [
 			{
 				"id": "166",
@@ -222,7 +222,7 @@
 	{
 		"id": 5,
 		"name": "Conservas, aceites y condimentos",
-		"img": "http://cdn.flaticon.com/png/256/34570.png",
+		"img": "34570.png",
 		"products": [
 			{
 				"id": 135,
@@ -314,7 +314,7 @@
 	{
 		"id": 6,
 		"name": "Droguería y limpieza",
-		"img": "http://cdn.flaticon.com/png/256/80038.png",
+		"img": "80038.png",
 		"products": [
 			{
 				"id": "121",
@@ -356,7 +356,7 @@
 	{
 		"id": 7,
 		"name": "Frutas, verduras y hortalizas",
-		"img": "http://cdn.flaticon.com/png/256/67391.png",
+		"img": "67391.png",
 		"products": [
 			{
 				"id": "123",
@@ -448,7 +448,7 @@
 	{
 		"id": 8,
 		"name": "Hogar",
-		"img": "http://cdn.flaticon.com/png/256/70950.png",
+		"img": "70950.png",
 		"products": [
 			{
 				"id": "74",
@@ -480,7 +480,7 @@
 	{
 		"id": 9,
 		"name": "Horno y bollería",
-		"img": "http://cdn.flaticon.com/png/256/17226.png",
+		"img": "17226.png",
 		"products": [
 			{
 				"id": 130,
@@ -537,7 +537,7 @@
 	{
 		"id": 10,
 		"name": "Lácteos y Huevos",
-		"img": "http://cdn.flaticon.com/png/256/34649.png",
+		"img": "34649.png",
 		"products": [
 			{
 				"id": "29",
@@ -574,7 +574,7 @@
 	{
 		"id": 11,
 		"name": "Pastas y legumbres",
-		"img": "http://cdn.flaticon.com/png/256/66304.png",
+		"img": "66304.png",
 		"products": [
 			{
 				"id": 81,
@@ -606,7 +606,7 @@
 	{
 		"id": 12,
 		"name": "Perfumería e Higiene",
-		"img": "http://cdn.flaticon.com/png/256/80521.png",
+		"img": "80521.png",
 		"products": [
 			{
 				"id": "148",
@@ -643,7 +643,7 @@
 	{
 		"id": 13,
 		"name": "Pescadería",
-		"img": "http://cdn.flaticon.com/png/256/1833.png",
+		"img": "1833.png",
 		"products": [
 			{
 				"id": 162,
