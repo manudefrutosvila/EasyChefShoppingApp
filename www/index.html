@@ -10,7 +10,7 @@
     <link href="css/app.css" rel="stylesheet">
 
   </head>
-  <body ng-app="ecs">
+  <body ng-app="ecs" ng-controller="AppCtrl">
     <!--
       The nav bar that will be updated as we navigate between views.
     -->
@@ -19,7 +19,8 @@
       </ion-nav-back-button>
       <ion-nav-title>Easy Chef Shopping</ion-nav-title>
       <ion-nav-buttons side="right">
-          <button class="button button-icon icon icon-right ion-android-more-vertical"></button>
+          <button class="button button-icon icon icon-right ion-android-more-vertical"
+          ng-click="openPopover($event)"></button>
       </ion-nav-buttons>
     </ion-nav-bar>
     <!--
@@ -46,6 +47,7 @@
 
     <!-- Layout module -->
     <script src="js/layout/layout.module.js"></script>
+    <script src="js/layout/app.ctrl.js"></script>
     <script src="js/layout/tabs.ctrl.js"></script>
     <script src="js/layout/tabs.service.js"></script>
 
