@@ -10,13 +10,13 @@
                     <img ng-src="{{category.img}}">
                     <h2>{{category.name}}</h2>
                 </ion-item>
-                <ion-checkbox class="item-accordion item-checkbox-right"
+                <ion-checkbox class="item-accordion"
                     ng-repeat="product in category.products"
                     ng-show="isCategoryShown(category)"
                     ng-model="product.isInCart"
                     ng-change="cartProductsUpdate(product)"
                     on-hold="onHold(category, product)">
-                        {{product.name}}
+                    {{product.name}}
                 </ion-checkbox>
             </div>
         </ion-list>

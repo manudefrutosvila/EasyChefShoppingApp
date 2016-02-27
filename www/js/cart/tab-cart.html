@@ -8,7 +8,7 @@
                     <img ng-src="{{category.img}}">
                     <h2>{{category.name}}</h2>
                 </ion-item>
-                <ion-checkbox class="item-accordion item-checkbox-right"
+                <ion-checkbox class="item-accordion"
                     ng-repeat="product in category.products"
                     ng-show="isProductShown(category, product)"
                     ng-model="product.isInCart"
