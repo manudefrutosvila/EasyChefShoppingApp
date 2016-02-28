@@ -8,7 +8,7 @@
             padding-top: 0;
             padding-bottom: 0;
             transition: 0.09s all linear;
-            
+
             &.ng-hide{
                 line-height: 0px;
             }
@@ -16,9 +16,13 @@
                 display: block !important;
             }
         }
-        
+
         &.item-avatar h2{
             margin-top: 10px;
+        }
+
+        &.item-done .item-content span{
+            text-decoration: line-through;
         }
     }
 }

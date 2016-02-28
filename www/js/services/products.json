@@ -1,0 +1,724 @@
+[
+	{
+		"id": 37,
+		"name": "Doritos",
+		"description": "",
+		"category": 0
+	},
+	{
+		"id": 38,
+		"name": "Olivas",
+		"description": "",
+		"category": 0
+	},
+	{
+		"id": 78,
+		"name": "Papas",
+		"description": "Tradicional",
+		"category": 0
+	},
+	{
+		"id": 172,
+		"name": "Papas",
+		"description": "Sabor jamón",
+		"category": 0
+	},
+	{
+		"id": 125,
+		"name": "Saladitos",
+		"description": "",
+		"category": 0
+	},
+
+
+	{
+		"id": 53,
+		"name": "Agua",
+		"description": "2 litros",
+		"category": 1
+	},
+	{
+		"id": "169",
+		"name": "Cerveza",
+		"description": "",
+		"category": 1
+	},
+	{
+		"id": "1",
+		"name": "Coca cola",
+		"description": "2L",
+		"category": 1
+	},
+	{
+		"id": "6",
+		"name": "Fanta limón",
+		"description": "",
+		"category": 1
+	},
+	{
+		"id": "99",
+		"name": "Trina Naranja",
+		"description": "",
+		"category": 1
+	},
+	{
+		"id": "9",
+		"name": "Té limón",
+		"description": "",
+		"category": 1
+	},
+	{
+		"id": "129",
+		"name": "Vino blanco",
+		"description": "Cocina",
+		"category": 1
+	},
+	{
+		"id": "7",
+		"name": "Zumo naranja",
+		"description": "",
+		"category": 1
+	},
+
+
+	{
+		"id": "35",
+		"name": "Alitas pollo",
+		"description": "",
+		"category": 2
+	},
+	{
+		"id": "92",
+		"name": "Carne picada",
+		"description": "",
+		"category": 2
+	},
+	{
+		"id": "93",
+		"name": "Conejo",
+		"description": "",
+		"category": 2
+	},
+	{
+		"id": "22",
+		"name": "Cordero",
+		"description": "",
+		"category": 2
+	},
+	{
+		"id": "102",
+		"name": "Hamburguesas",
+		"description": "Ternera",
+		"category": 2
+	},
+	{
+		"id": "36",
+		"name": "Lomo cerdo",
+		"description": "",
+		"category": 2
+	},
+	{
+		"id": "2",
+		"name": "Pechugas pollo",
+		"description": "Filetes",
+		"category": 2
+	},
+	{
+		"id": "105",
+		"name": "Pollo",
+		"description": "",
+		"category": 2
+	},
+	{
+		"id": "23",
+		"name": "Ternera",
+		"description": "",
+		"category": 2
+	},
+
+
+	{
+		"id": 34,
+		"name": "Bacon",
+		"description": "",
+		"category": 3
+	},
+	{
+		"id": "10",
+		"name": "Fuet",
+		"description": "",
+		"category": 3
+	},
+	{
+		"id": "12",
+		"name": "Jamón serrano",
+		"description": "",
+		"category": 3
+	},
+	{
+		"id": "11",
+		"name": "Jamón york",
+		"description": "",
+		"category": 3
+	},
+	{
+		"id": "24",
+		"name": "Longaniza de pavo",
+		"description": "",
+		"category": 3
+	},
+	{
+		"id": "131",
+		"name": "Pechuga de pavo",
+		"description": "",
+		"category": 3
+	},
+	{
+		"id": "31",
+		"name": "Queso",
+		"description": "",
+		"category": 3
+	},
+	{
+		"id": "66",
+		"name": "Queso mozzarella",
+		"description": "",
+		"category": 3
+	},
+	{
+		"id": "115",
+		"name": "Queso rallado",
+		"description": "",
+		"category": 3
+	},
+	{
+		"id": "108",
+		"name": "Queso sandwich",
+		"description": "Emmental",
+		"category": 3
+	},
+	{
+		"id": "32",
+		"name": "Salchichas hot dog",
+		"description": "",
+		"category": 3
+	},
+	{
+		"id": "33",
+		"name": "Salmón ahumado",
+		"description": "",
+		"category": 3
+	},
+
+
+	{
+		"id": "166",
+		"name": "Bases de pizza",
+		"description": "",
+		"category": 4
+	},
+	{
+		"id": "3",
+		"name": "Patatas fritas",
+		"description": "Corte grueso",
+		"category": 4
+	},
+	{
+		"id": "116",
+		"name": "Verduras",
+		"description": "",
+		"category": 4
+	},
+
+
+	{
+		"id": 135,
+		"name": "Aceite",
+		"description": "",
+		"category": 5
+	},
+	{
+		"id": "79",
+		"name": "Ajo",
+		"description": "",
+		"category": 5
+	},
+	{
+		"id": "134",
+		"name": "Atún",
+		"description": "",
+		"category": 5
+	},
+	{
+		"id": "110",
+		"name": "Azúcar",
+		"description": "",
+		"category": 5
+	},
+	{
+		"id": "111",
+		"name": "Café",
+		"description": "",
+		"category": 5
+	},
+	{
+		"id": "80",
+		"name": "Comino",
+		"description": "",
+		"category": 5
+	},
+	{
+		"id": "109",
+		"name": "Harina",
+		"description": "Maicena",
+		"category": 5
+	},
+	{
+		"id": "72",
+		"name": "Ketchup",
+		"description": "",
+		"category": 5
+	},
+	{
+		"id": "151",
+		"name": "Laurel",
+		"description": "",
+		"category": 5
+	},
+	{
+		"id": "114",
+		"name": "Manzanilla",
+		"description": "",
+		"category": 5
+	},
+	{
+		"id": "73",
+		"name": "Orégano",
+		"description": "",
+		"category": 5
+	},
+	{
+		"id": "112",
+		"name": "Sal",
+		"description": "",
+		"category": 5
+	},
+	{
+		"id": "143",
+		"name": "Salsa tomate mexicana",
+		"description": "Fajitas",
+		"category": 5
+	},
+	{
+		"id": "113",
+		"name": "Tila",
+		"description": "",
+		"category": 5
+	},
+	{
+		"id": "100",
+		"name": "Tomate",
+		"description": "Natural triturado",
+		"category": 5
+	},
+	{
+		"id": "101",
+		"name": "Tomate",
+		"description": "Frito triturado",
+		"category": 5
+	},
+	{
+		"id": "136",
+		"name": "Vinagre",
+		"description": "",
+		"category": 5
+	},
+
+
+	{
+		"id": "121",
+		"name": "Ambientador",
+		"description": "",
+		"category": 6
+	},
+	{
+		"id": "171",
+		"name": "Bolsa basura",
+		"description": "",
+		"category": 6
+	},
+	{
+		"id": "15",
+		"name": "Detergente blanco",
+		"description": "",
+		"category": 6
+	},
+	{
+		"id": "5",
+		"name": "Detergente color",
+		"description": "",
+		"category": 6
+	},
+	{
+		"id": "16",
+		"name": "Fregasuelos",
+		"description": "",
+		"category": 6
+	},
+	{
+		"id": "49",
+		"name": "Papel higiénico",
+		"description": "",
+		"category": 6
+	},
+	{
+		"id": "14",
+		"name": "Suavizante",
+		"description": "",
+		"category": 6
+	},
+
+
+	{
+		"id": "123",
+		"name": "Alcachofas",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "122",
+		"name": "Calabacín",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "128",
+		"name": "Cebolla",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "89",
+		"name": "Champiñones",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "18",
+		"name": "Cherrys",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "98",
+		"name": "Guisantes",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "17",
+		"name": "Lechuga",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "76",
+		"name": "Limones",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "119",
+		"name": "Manzanas",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "26",
+		"name": "Maíz",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "118",
+		"name": "Naranjas",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "170",
+		"name": "Patatas",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "117",
+		"name": "Peras",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "13",
+		"name": "Pimientos",
+		"description": "Freir",
+		"category": 7
+	},
+	{
+		"id": "120",
+		"name": "Plátanos",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "96",
+		"name": "Tomates",
+		"description": "",
+		"category": 7
+	},
+	{
+		"id": "8",
+		"name": "Zanahorias",
+		"description": "Envase de 2 unidades",
+		"category": 7
+	},
+
+
+	{
+		"id": "74",
+		"name": "Bolsas basura",
+		"description": "",
+		"category": 8
+	},
+	{
+		"id": "68",
+		"name": "Fregona",
+		"description": "",
+		"category": 8
+	},
+	{
+		"id": "165",
+		"name": "Papel cocina",
+		"description": "",
+		"category": 8
+	},
+	{
+		"id": "103",
+		"name": "Papel film",
+		"description": "",
+		"category": 8
+	},
+	{
+		"id": "69",
+		"name": "Pilas",
+		"description": "",
+		"category": 8
+	},
+
+
+	{
+		"id": 130,
+		"name": "Chocolate",
+		"description": "",
+		"category": 9
+	},
+	{
+		"id": "141",
+		"name": "Fajitas",
+		"description": "",
+		"category": 9
+	},
+	{
+		"id": "126",
+		"name": "Hojaldre",
+		"description": "",
+		"category": 9
+	},
+	{
+		"id": "104",
+		"name": "Napolitanas",
+		"description": "York y queso",
+		"category": 9
+	},
+	{
+		"id": "132",
+		"name": "Nutella",
+		"description": "",
+		"category": 9
+	},
+	{
+		"id": "30",
+		"name": "Pan",
+		"description": "",
+		"category": 9
+	},
+	{
+		"id": "64",
+		"name": "Pan Hotdog",
+		"description": "",
+		"category": 9
+	},
+	{
+		"id": "77",
+		"name": "Pan de molde",
+		"description": "",
+		"category": 9
+	},
+	{
+		"id": "107",
+		"name": "Pan hamburguesa",
+		"description": "",
+		"category": 9
+	},
+	{
+		"id": "63",
+		"name": "Panecillos tostados",
+		"description": "",
+		"category": 9
+	},
+
+
+	{
+		"id": "29",
+		"name": "Batido fresa",
+		"description": "",
+		"category": 10
+	},
+	{
+		"id": "133",
+		"name": "Huevos",
+		"description": "",
+		"category": 10
+	},
+	{
+		"id": "4",
+		"name": "Leche",
+		"description": "",
+		"category": 10
+	},
+	{
+		"id": "90",
+		"name": "Mantequilla",
+		"description": "Light hacendado",
+		"category": 10
+	},
+	{
+		"id": "57",
+		"name": "Nata cocina",
+		"description": "",
+		"category": 10
+	},
+	{
+		"id": "27",
+		"name": "Yogur natural",
+		"description": "",
+		"category": 10
+	},
+
+
+	{
+		"id": 81,
+		"name": "Arroz",
+		"description": "",
+		"category": 11
+	},
+	{
+		"id": "84",
+		"name": "Garbanzos",
+		"description": "",
+		"category": 11
+	},
+	{
+		"id": "140",
+		"name": "Lentejas",
+		"description": "",
+		"category": 11
+	},
+	{
+		"id": "82",
+		"name": "Macarrones",
+		"description": "",
+		"category": 11
+	},
+	{
+		"id": "83",
+		"name": "Spaguettis",
+		"description": "",
+		"category": 11
+	},
+
+
+	{
+		"id": "148",
+		"name": "Bastoncillos",
+		"description": "",
+		"category": 12
+	},
+	{
+		"id": "161",
+		"name": "Champú",
+		"description": "",
+		"category": 12
+	},
+	{
+		"id": "137",
+		"name": "Cuchillas afeitar",
+		"description": "",
+		"category": 12
+	},
+	{
+		"id": "138",
+		"name": "Dentífrico",
+		"description": "",
+		"category": 12
+	},
+	{
+		"id": "139",
+		"name": "Desodorante",
+		"description": "",
+		"category": 12
+	},
+	{
+		"id": "160",
+		"name": "Gel de baño",
+		"description": "",
+		"category": 12
+	},
+	
+
+	{
+		"id": 162,
+		"name": "Bacalao",
+		"description": "",
+		"category": 13
+	},
+	{
+		"id": "167",
+		"name": "Gambas",
+		"description": "",
+		"category": 13
+	},
+	{
+		"id": "168",
+		"name": "Mejillones",
+		"description": "",
+		"category": 13
+	},
+	{
+		"id": "163",
+		"name": "Merluza",
+		"description": "",
+		"category": 13
+	},
+	{
+		"id": "62",
+		"name": "Panga",
+		"description": "",
+		"category": 13
+	},
+	{
+		"id": "164",
+		"name": "Trucha",
+		"description": "",
+		"category": 13
+	}
+]

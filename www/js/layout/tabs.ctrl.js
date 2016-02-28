@@ -6,15 +6,18 @@
         .controller('TabsCtrl', TabsCtrl);
 
     function TabsCtrl($scope) {
+        activate();
 
-        $scope.productsInCart = 0;
+        function activate(){
+            $scope.productsInCart = 0;
 
-        $scope.$on('cartProductAdd', function(){
-            $scope.productsInCart++;
-        });
+            $scope.$on('cartProductAdd', function(){
+                $scope.productsInCart++;
+            });
 
-        $scope.$on('cartProductDelete', function(){
-            $scope.productsInCart--;
-        });
+            $scope.$on('cartProductDelete', function(){
+                $scope.productsInCart--;
+            });
+        }
     }
 })();

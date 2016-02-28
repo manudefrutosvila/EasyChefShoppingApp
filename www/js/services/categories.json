@@ -1,0 +1,72 @@
+[
+	{
+		"id": 0,
+		"name": "Aperitivos",
+		"img": "66346.png"
+	},
+	{
+		"id": 1,
+		"name": "Bebidas",
+		"img": "11148.png"
+	},
+	{
+		"id": 2,
+		"name": "Carnicería",
+		"img": "meat_38212.png"
+	},
+	{
+		"id": 3,
+		"name": "Charcutería y Quesos",
+		"img": "66507.png"
+	},
+	{
+		"id": 4,
+		"name": "Congelados y Helados",
+		"img": "63341.png"
+	},
+	{
+		"id": 5,
+		"name": "Conservas, aceites y condimentos",
+		"img": "34570.png"
+	},
+	{
+		"id": 6,
+		"name": "Droguería y limpieza",
+		"img": "80038.png"
+	},
+	{
+		"id": 7,
+		"name": "Frutas, verduras y hortalizas",
+		"img": "67391.png"
+	},
+	{
+		"id": 8,
+		"name": "Hogar",
+		"img": "70950.png"
+	},
+	{
+		"id": 9,
+		"name": "Horno y bollería",
+		"img": "17226.png"
+	},
+	{
+		"id": 10,
+		"name": "Lácteos y Huevos",
+		"img": "34649.png"
+	},
+	{
+		"id": 11,
+		"name": "Pastas y legumbres",
+		"img": "66304.png"
+	},
+	{
+		"id": 12,
+		"name": "Perfumería e Higiene",
+		"img": "80521.png"
+	},
+	{
+		"id": 13,
+		"name": "Pescadería",
+		"img": "1833.png"
+	}
+]

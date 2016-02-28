@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ecs', ['ionic', 'ecs.core', 'ecs.layout', 'ecs.products', 'ecs.cart'])
+angular.module('ecs', ['ecs.core'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {

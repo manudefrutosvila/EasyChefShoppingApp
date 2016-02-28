@@ -5,10 +5,10 @@
         .module('ecs.cart')
         .controller('CartCtrl', CartCtrl);
 
-    function CartCtrl($scope, $log, $ionicTabsDelegate, cart, tabs) {
-        $scope.$on('$ionicView.enter', function(e) {
-            activate();
-        });
+    function CartCtrl($scope, $log, $ionicTabsDelegate, $timeout, categoriesProducts, cart, tabs) {
+        // $scope.$on('$ionicView.enter', function(e) {
+        //     activate();
+        // });
 
         $scope.isCategoryActive = isCategoryActive;
         $scope.isCategoryShown = isCategoryShown;
@@ -17,6 +17,7 @@
         $scope.onSwipeRight = onSwipeRight;
         // $scope.onSwipeLeft = onSwipeLeft;
 
+        activate();
 
         function activate(){
             return getCart().then(function(){
@@ -25,9 +26,9 @@
         }
 
         function getCart(){
-            return cart.all().then(function(data){
-                $scope.categories = data;
-                return $scope.categories;
+            return categoriesProducts.init().then(function(data){
+                $scope.cart = cart.items;
+                return $scope.cart;
             });
         }
 
@@ -44,6 +45,7 @@
                 }
             });
             return result;
+            // return category.products.length > 0;
         }
 
         function isProductShown(category, product) {
@@ -51,7 +53,10 @@
         }
 
         function cartProductsUpdate(product){
-            $scope.$emit('cartProductDelete');
+            $timeout(function(){
+                cart.deleteItem(product);
+                $scope.$emit('cartProductDelete');
+            },100);
         }
 
         function onSwipeRight(){

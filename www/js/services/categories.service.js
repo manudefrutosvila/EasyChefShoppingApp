@@ -2,11 +2,10 @@
     'use strict';
 
     angular
-        .module('ecs.products')
-        .factory('products', products);
+        .module('ecs.services')
+        .factory('categories', categories);
 
-
-    function products($http, $log) {
+    function categories($http, $log, sort) {
         var items = [];
 
         var service = {
@@ -20,16 +19,18 @@
         return service;
 
         function all() {
-            return $http.get('js/products/categories.json')
+            return $http.get('js/services/categories.json')
                 .then(allComplete)
                 .catch(allFailed);
 
             function allComplete(response){
-                service.items = response.data.map(function(item){
-                    item.img = 'img/' + item.img;
-                    return item;
-                });
-                $log.info('products.all', service.items);
+                service.items = response.data
+                    .sort(sort.byNameAsc)
+                    .map(function(item){
+                        item.img = 'img/' + item.img;
+                        return item;
+                    });
+                $log.info('categories.all', service.items);
                 return service.items;
             }
 

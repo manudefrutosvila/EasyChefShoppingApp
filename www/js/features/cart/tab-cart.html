@@ -1,16 +1,16 @@
 <ion-view on-swipe-left="onSwipeLeft()" on-swipe-right="onSwipeRight()">
     <ion-content>
         <ion-list>
-            <div ng-repeat="category in categories">
+            <div ng-repeat="cartItem in cart">
                 <ion-item class="item-remove-animate item-avatar item-icon-right active"
-                    ng-show="isCategoryShown(category)">
+                    ng-show="isCategoryShown(cartItem)">
 
-                    <img ng-src="{{category.img}}">
-                    <h2>{{category.name}}</h2>
+                    <img ng-src="{{cartItem.img}}">
+                    <h2>{{cartItem.name}}</h2>
                 </ion-item>
                 <ion-checkbox class="item-accordion"
-                    ng-repeat="product in category.products"
-                    ng-show="isProductShown(category, product)"
+                    ng-repeat="product in cartItem.products"
+                    ng-show="isProductShown(cartItem, product)"
                     ng-model="product.isInCart"
                     ng-change="cartProductsUpdate(product)">
                         {{product.name}}

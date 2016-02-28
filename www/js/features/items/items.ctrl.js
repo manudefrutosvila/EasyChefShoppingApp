@@ -2,10 +2,10 @@
     'use strict';
 
     angular
-        .module('ecs.products')
-        .controller('ProductsCtrl', ProductsCtrl);
+        .module('ecs.items')
+        .controller('ItemsCtrl', ItemsCtrl);
 
-    function ProductsCtrl($scope, $http, $log, $ionicTabsDelegate, $state, products, cart, tabs) {
+    function ItemsCtrl($scope, $q, $log, $ionicTabsDelegate, categoriesProducts, products, categories, cart, tabs) {
 
         $scope.categories = [];
 
@@ -17,7 +17,6 @@
 
         activate();
 
-
         function activate(){
             return getProducts().then(function(){
                 $log.info('Activated Products View');
@@ -25,7 +24,7 @@
         }
 
         function getProducts(){
-            return products.all().then(function(data) {
+            return categoriesProducts.init().then(function(data){
                 $scope.categories = data;
                 return $scope.categories;
             });
@@ -43,11 +42,13 @@
             return $scope.shownCategory === category;
         }
 
-        function cartProductsUpdate(product){
+        function cartProductsUpdate(category, product){
             if (product.isInCart){
+                cart.addItem(product);
                 $scope.$emit('cartProductAdd');
                 return;
             }
+            cart.deleteItem(product);
             $scope.$emit('cartProductDelete');
         }
 

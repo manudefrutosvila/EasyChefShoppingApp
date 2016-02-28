@@ -29,6 +29,6 @@
 
         function closePopover() {
             $scope.popover.hide();
-        };
+        }
     }
 })();
