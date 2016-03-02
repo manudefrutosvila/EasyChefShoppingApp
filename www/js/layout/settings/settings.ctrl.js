@@ -5,11 +5,10 @@
         .module('ecs.layout')
         .controller('SettingsCtrl', SettingsCtrl);
 
-    function SettingsCtrl($scope, $cordovaSocialSharing, version, errorService, deviceInfo) {
+    function SettingsCtrl($scope, share, version, deviceInfo) {
         $scope.sendFeedback = sendFeedback;
         $scope.shareViaTwitter = shareViaTwitter;
-        $scope.shareViaFacebook = shareViaFacebook;
-        $scope.shareViaWhatsApp = shareViaWhatsApp;
+        $scope.shareViaNativeSheet = shareViaNativeSheet;
 
         activate();
 
@@ -22,8 +21,10 @@
 
             var subject = 'Comentarios sobre Easy Chef Shopping';
             var message = 'Puedes escribir tus comentarios en este email:\n\n\n\n';
-            message = message.concat('Información del dispositivo:\n')
-                .concat('Plataforma: ')
+            message = message.concat('Información útil para el desarrollador:\n')
+                .concat('Easy Cheff Shopping Version: ')
+                .concat(version)
+                .concat('\nPlataforma: ')
                 .concat(device.platform)
                 .concat('\nVersion: ')
                 .concat(device.version)
@@ -34,10 +35,17 @@
             var ccEmails = null;
             var bccEmails = null;
             var files = [];
-            var onSuccess = null;
-            var onError = null;
 
-            $cordovaSocialSharing.shareViaEmail(message, subject, developerEmails, ccEmails, bccEmails, files, onSuccess, onError);
+            var emailOptions = {
+                message   : message,
+                subject   : subject,
+                toEmails  : developerEmails,
+                ccEmails  : ccEmails,
+                bccEmails : bccEmails,
+                files     : files
+            };
+
+            share.viaEmail(emailOptions);
         }
 
         var shareOptions = {
@@ -47,31 +55,11 @@
         };
 
         function shareViaTwitter(){
-            shareVia('twitter', function(result) {
-                $cordovaSocialSharing.shareViaTwitter(shareOptions.message, shareOptions.image, shareOptions.link);
-            }, function(error) {
-                errorService.show('Twitter APP not installed');
-            });
+            share.viaTwitter(shareOptions);
         }
 
-        function shareViaFacebook(){
-            shareVia('facebook', function(result) {
-                $cordovaSocialSharing.shareViaFacebook(shareOptions.message, shareOptions.image, shareOptions.link);
-            }, function(error) {
-                errorService.show('Facebook APP not installed');
-            });
-        }
-
-        function shareViaWhatsApp(){
-            shareVia('whatsapp', function(result) {
-                $cordovaSocialSharing.shareViaWhatsApp(shareOptions.message, shareOptions.image, shareOptions.link);
-            }, function(error) {
-                errorService.show('whatsapp APP not installed');
-            });
-        }
-
-        function shareVia(social, onSuccess, onError){
-            $cordovaSocialSharing.canShareVia(social, shareOptions.message, shareOptions.image, shareOptions.link).then(onSuccess, onError);
+        function shareViaNativeSheet(){
+            share.nativeSheet(shareOptions);
         }
     }
 })();
