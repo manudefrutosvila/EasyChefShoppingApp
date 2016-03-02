@@ -27,7 +27,7 @@
                 service.items.map(function(item){
                     item.products = [];
                 });
-                $log.info('cart.init', service.items);
+                // $log.info('cart.init', service.items);
             }
         }
 

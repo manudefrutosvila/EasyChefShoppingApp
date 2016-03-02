@@ -35,7 +35,7 @@
                     });
                     return category;
                 });
-                $log.info('categoriesProducts', service.items);
+                // $log.info('categoriesProducts', service.items);
                 cart.init();
                 return service.items;
             });

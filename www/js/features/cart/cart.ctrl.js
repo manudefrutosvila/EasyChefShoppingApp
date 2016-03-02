@@ -6,10 +6,6 @@
         .controller('CartCtrl', CartCtrl);
 
     function CartCtrl($scope, $log, $ionicTabsDelegate, $timeout, categoriesProducts, cart, tabs) {
-        // $scope.$on('$ionicView.enter', function(e) {
-        //     activate();
-        // });
-
         $scope.isCategoryActive = isCategoryActive;
         $scope.isCategoryShown = isCategoryShown;
         $scope.isProductShown = isProductShown;
@@ -37,15 +33,7 @@
         }
 
         function isCategoryShown(category) {
-            var result = false;
-            angular.forEach(category.products, function(item){
-                if(item.isInCart){
-                    result = true;
-                    return;
-                }
-            });
-            return result;
-            // return category.products.length > 0;
+            return category.products.length > 0;
         }
 
         function isProductShown(category, product) {

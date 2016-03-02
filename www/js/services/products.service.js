@@ -25,7 +25,7 @@
 
             function allComplete(response){
                 service.items = response.data.sort(sort.byNameAsc);
-                $log.info('products.all', service.items);
+                // $log.info('products.all', service.items);
                 return service.items;
             }
 

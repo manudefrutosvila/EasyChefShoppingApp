@@ -30,7 +30,7 @@
                         item.img = 'img/' + item.img;
                         return item;
                     });
-                $log.info('categories.all', service.items);
+                // $log.info('categories.all', service.items);
                 return service.items;
             }
 

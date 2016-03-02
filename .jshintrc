@@ -14,7 +14,8 @@
     "spyOn"     : false,
     "$"         : false,
     "cordova"   : false,
-    "StatusBar" : false
+    "StatusBar" : false,
+    "ionic"     : false
   },
   "node": true,
   "browser": true,
