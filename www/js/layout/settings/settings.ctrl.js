@@ -22,7 +22,7 @@
             var subject = 'Comentarios sobre Easy Chef Shopping';
             var message = 'Puedes escribir tus comentarios en este email:\n\n\n\n';
             message = message.concat('Información útil para el desarrollador:\n')
-                .concat('Easy Cheff Shopping Version: ')
+                .concat('Easy Chef Shopping Version: ')
                 .concat(version)
                 .concat('\nPlataforma: ')
                 .concat(device.platform)
