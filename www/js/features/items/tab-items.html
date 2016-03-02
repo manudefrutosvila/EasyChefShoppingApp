@@ -17,6 +17,9 @@
                     ng-change="cartProductsUpdate(category, product)"
                     on-hold="onHold(category, product)">
                     {{product.name}}
+                    <span class="item-note" ng-if="product.description">
+                        {{product.description}}
+                    </span>
                 </ion-checkbox>
             </div>
         </ion-list>

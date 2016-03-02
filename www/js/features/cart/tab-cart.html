@@ -13,7 +13,10 @@
                     ng-show="isProductShown(cartItem, product)"
                     ng-model="product.isInCart"
                     ng-change="cartProductsUpdate(product)">
-                        {{product.name}}
+                    {{product.name}}
+                    <span class="item-note" ng-if="product.description">
+                        {{product.description}}
+                    </span>
                 </ion-checkbox>
             </div>
         </ion-list>
