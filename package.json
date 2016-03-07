@@ -1,6 +1,6 @@
 {
   "name": "ecsApp",
-  "version": "0.0.1",
+  "version": "0.5.1",
   "description": "Easy shopping list, a fast way to remember the products to buy.",
   "dependencies": {
     "gulp": "^3.5.6",
