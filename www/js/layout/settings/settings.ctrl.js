@@ -51,7 +51,7 @@
         var shareOptions = {
             message : 'Haz tu lista de la compra de manera fácil con Easy Chef Shopping!',
             image   : 'www/img/icon.png',
-            link    : null
+            link    : 'http://www.amazon.es/manufv-Easy-Chef-Shopping/dp/B01CH5RMVU/'
         };
 
         function shareViaTwitter(){
